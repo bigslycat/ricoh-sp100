@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Tested OK on Ubuntu 16.04
+
+apt update
+
+apt install \
+  jbigkit-bin \
+  imagemagick \
+  ghostscript \
+  inotify-tools \
+  -y
